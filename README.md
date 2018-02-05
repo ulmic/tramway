@@ -1,35 +1,33 @@
 # Tramway
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tramway`. To experiment with that code, run `bin/console` for an interactive prompt.
+*If you need translation of this Readme, please message us **kalashnikov@ulmic.ru**. We'll translate for you and post to this page*
 
-TODO: Delete this and the text above, and describe your gem
+Это набор гемов для быстрого построения узкоспециализированных Rails-приложений.
+У каждого заказчика, который руководит или принимает участие в руководстве организацией есть **1** интересующее нас достоинство и **2** недостатка:
 
-## Installation
+Достоинства:
+* он знает бизнес-процессы своей организации
 
-Add this line to your application's Gemfile:
+Недостатки:
+* он не умеет делать сайты
+* он не знает, что на этих сайтах должно быть
 
-```ruby
-gem 'tramway'
-```
+Tramway решает две этих проблемы. Цель проекта сделать так, чтобы руководителю организации не приходилось идти в веб-студии, чтобы ему сделали такой же типовой сайт, которых делали уже много. Всё благодаря тому, что будут разработаны шаблоны сайтов. Шаблоны Tramway претендуют на то, чтобы удовлетворять потребностям большого количества "заказчиков".
 
-And then execute:
+Реализованные шаблоны:
 
-    $ bundle
+*coming soon*
 
-Or install it yourself as:
+Шаблоны в стадии разработки:
 
-    $ gem install tramway
+*tramway-sport_school*
 
-## Usage
+Так же, в рамках разработки Tramway шаблонов были сделаны *корневые* библиотеки:
 
-TODO: Write usage instructions here
+* tramway-core - ядро, предоставляющее базовые классы для шаблонов
+* tramway-admin - каждый сайт должен иметь систему управления контентом (админку), эта библиотека предоставляет админку
+* tramway-landing - многие проекты выглядят как лендинги, в этой библиотеке собраны основные стили для лендингов
 
-## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+## Поучаствовать в разработке
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/tramway.
